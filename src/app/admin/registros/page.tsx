@@ -8,7 +8,7 @@ export default function Home() {
   
 
   return (
-    <div>
+    <div className="  sm:mx-10 sm:py-5 ">
   
 <DataTabla />
     </div>
