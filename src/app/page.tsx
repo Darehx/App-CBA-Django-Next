@@ -1,4 +1,5 @@
 
+import Headercbs from "@/components/UI/header";
 import DataTabla from "@/components/UI/workshopsReg";
 import DataTable from "react-data-table-component";
 
@@ -8,9 +9,9 @@ export default function Home() {
   
 
   return (
-    <div className="p-20">
   
-<section className="bg-slate-800 p-10"><div>Hola Bienvenido</div></section>
-    </div>
+    <Headercbs/> //Header con el logo
+
+    
   );
 }
