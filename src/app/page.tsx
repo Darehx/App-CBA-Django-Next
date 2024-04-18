@@ -8,9 +8,9 @@ export default function Home() {
   
 
   return (
-    <div>
+    <div className="p-20">
   
-<DataTabla />
+<section className="bg-slate-800 p-10"><div>Hola Bienvenido</div></section>
     </div>
   );
 }
